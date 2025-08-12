@@ -1,4 +1,4 @@
-# Developer Portfolio
+# My Developer  Portfolio
 
 A professional, modern portfolio website for developers. Features a dark and purple theme, white/dark mode toggle, and AJAX-loaded projects.
 
@@ -24,4 +24,5 @@ A professional, modern portfolio website for developers. Features a dark and pur
 
 ---
 
-© 2024 Your Name 
+
+© 2025 Osagani Perera 
