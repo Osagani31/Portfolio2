@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osagani Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Osagani Perera</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="mode-toggle" aria-label="Toggle dark/white mode">🌙</button>
+  </header>
+  <main>
+    <section id="home">
+      <div class="home-content">
+        <h2>Welcome</h2>
+        <p>
+          <span id="typing-text"></span><span id="typing-cursor">|</span>
+        </p>
+        <p>
+          <span id="typing-text-2"></span><span id="typing-cursor-2">|</span>
+        </p>
+        <a href="#projects" class="cta-button">View My Projects</a>
+        <div class="home-social-links">
+          <a href="https://github.com/Osagani31" class="home-social-link" target="_blank" rel="noopener" title="GitHub">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0.297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387 0.6 0.113 0.82-0.258 0.82-0.577 0-0.285-0.011-1.04-0.017-2.04-3.338 0.726-4.042-1.61-4.042-1.61-0.546-1.387-1.333-1.756-1.333-1.756-1.089-0.745 0.083-0.729 0.083-0.729 1.205 0.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495 0.997 0.108-0.775 0.418-1.305 0.762-1.605-2.665-0.305-5.466-1.334-5.466-5.931 0-1.311 0.469-2.381 1.236-3.221-0.124-0.303-0.535-1.523 0.117-3.176 0 0 1.008-0.322 3.301 1.23 0.957-0.266 1.984-0.399 3.003-0.404 1.018 0.005 2.046 0.138 3.006 0.404 2.291-1.553 3.297-1.23 3.297-1.23 0.653 1.653 0.242 2.873 0.119 3.176 0.77 0.84 1.235 1.91 1.235 3.221 0 4.609-2.804 5.624-5.475 5.921 0.43 0.372 0.823 1.102 0.823 2.222 0 1.606-0.015 2.898-0.015 3.293 0 0.322 0.216 0.694 0.825 0.576 4.765-1.589 8.199-6.085 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>Osagani31</span>
+            <span class="home-social-label">GitHub</span>
+          </a>
+          <a href="https://codepen.io/Osagani31" class="home-social-link" target="_blank" rel="noopener" title="CodePen">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 8.694c0-.019-.006-.037-.007-.056-.004-.062-.01-.123-.021-.184-.008-.041-.021-.08-.034-.12-.014-.043-.027-.086-.047-.127-.017-.035-.038-.067-.06-.1-.025-.037-.05-.073-.08-.106-.002-.002-.002-.006-.004-.008l-11-8c-.349-.254-.826-.254-1.175 0l-11 8c-.002.002-.002.006-.004.008-.03.033-.055.069-.08.106-.022.033-.043.065-.06.1-.02.041-.033.084-.047.127-.013.04-.026.079-.034.12-.011.061-.017.122-.021.184-.001.019-.007.037-.007.056v6.611c0 .019.006.037.007.056.004.062.01.123.021.184.008.041.021.08.034.12.014.043.027.086.047.127.017.035.038.067.06.1.025.037.05.073.08.106.002.002.002.006.004.008l11 8c.174.127.401.191.588.191s.414-.064.588-.191l11-8c.002-.002.002-.006.004-.008.03-.033.055-.069.08-.106.022-.033.043-.065.06-.1.02-.041.033-.084.047-.127.013-.04.026-.079.034-.12.011-.061.017-.122.021-.184.001-.019.007-.037.007-.056v-6.611zm-11-6.139 8.197 5.971-3.654 2.661-4.543-3.308zm-1 0v5.324l-4.543 3.308-3.654-2.661zm-9 7.139 2.985 2.174-2.985 2.174zm10 10.305-8.197-5.971 3.654-2.661 4.543 3.308zm1 0v-5.324l4.543-3.308 3.654 2.661zm9-7.139-2.985-2.174 2.985-2.174zm-10-1.305-3.543 2.578 3.543 2.578 3.543-2.578z"/></svg>
+            <span>Osagani31</span>
+            <span class="home-social-label">CodePen</span>
+          </a>
+          <a href="https://leetcode.com/osagani/" class="home-social-link" target="_blank" rel="noopener" title="LeetCode">
+            <!-- LeetCode SVG (improved) -->
+            <svg width="24" height="24" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M36.7 32.6c-1.1-1.1-2.8-1.1-3.9 0l-7.2 7.2c-2.2 2.2-5.7 2.2-7.9 0l-7.2-7.2c-2.2-2.2-2.2-5.7 0-7.9l7.2-7.2c1.1-1.1 1.1-2.8 0-3.9-1.1-1.1-2.8-1.1-3.9 0l-7.2 7.2c-4.4 4.4-4.4 11.6 0 16l7.2 7.2c4.4 4.4 11.6 4.4 16 0l7.2-7.2c1.1-1.1 1.1-2.8 0-3.9z" fill="#FFA116"/><path d="M44.1 5.9c-4.4-4.4-11.6-4.4-16 0l-7.2 7.2c-1.1 1.1-1.1 2.8 0 3.9 1.1 1.1 2.8 1.1 3.9 0l7.2-7.2c2.2-2.2 5.7-2.2 7.9 0l7.2 7.2c2.2 2.2 2.2 5.7 0 7.9l-7.2 7.2c-1.1 1.1-1.1 2.8 0 3.9 1.1 1.1 2.8 1.1 3.9 0l7.2-7.2c4.4-4.4 4.4-11.6 0-16z" fill="#070707"/></g></svg>
+            <span>osagani perera</span>
+            <span class="home-social-label">LeetCode</span>
+          </a>
+          <a href="https://www.hackerrank.com/osaganiperera123" class="home-social-link" target="_blank" rel="noopener" title="HackerRank">
+            <!-- HackerRank SVG (improved) -->
+            <svg width="24" height="24" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><g><polygon points="25,2 48,14 48,36 25,48 2,36 2,14" fill="#2EC866"/><text x="50%" y="60%" text-anchor="middle" fill="#fff" font-size="22" font-family="Arial, Helvetica, sans-serif" dy=".3em">H</text></g></svg>
+            <span>osagani31</span>
+            <span class="home-social-label">HackerRank</span>
+          </a>
+          <a href="https://www.behance.net/osaganiperera" class="home-social-link" target="_blank" rel="noopener" title="Behance">
+            <!-- Behance SVG (official, high contrast) -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="4" fill="#1769FF"/><path d="M7.5 10.5C8.32843 10.5 9 9.82843 9 9C9 8.17157 8.32843 7.5 7.5 7.5H4.5V13.5H7.5C8.32843 13.5 9 12.8284 9 12C9 11.1716 8.32843 10.5 7.5 10.5ZM6 9H7.5C7.77614 9 8 9.22386 8 9.5C8 9.77614 7.77614 10 7.5 10H6V9ZM7.5 12.5H6V11H7.5C7.77614 11 8 11.2239 8 11.5C8 11.7761 7.77614 12 7.5 12Z" fill="white"/><path d="M19.5 11.5C18.6716 11.5 18 12.1716 18 13C18 13.8284 18.6716 14.5 19.5 14.5C20.3284 14.5 21 13.8284 21 13C21 12.1716 20.3284 11.5 19.5 11.5ZM19.5 13.5C19.2239 13.5 19 13.2761 19 13C19 12.7239 19.2239 12.5 19.5 12.5C19.7761 12.5 20 12.7239 20 13C20 13.2761 19.7761 13.5 19.5 13.5Z" fill="white"/><rect x="14" y="7.5" width="5" height="1" rx="0.5" fill="white"/></svg>
+            <span>osagani31</span>
+            <span class="home-social-label">Behance</span>
+          </a>
+        </div>
+      </div>
+      <div class="home-image">
+        <video src="images/Untitled design.mp4" autoplay loop muted playsinline style="width: 380px; height: 380px; max-width: 100%; border-radius: 1.2rem; object-fit: cover; display: block;"></video>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-main-flex">
+        <img src="images/Osagani.jpg" alt="Profile image" class="about-profile-img">
+        <div class="about-main-text">
+          <p>
+            <span class="about-fade-in" id="about-fade-1">👋 Hi, I'm Osagani Perera, a second-year Computer Science undergraduate based in Kandana, Sri Lanka. I'm a self-motivated developer who's passionate about turning concepts into clean, functional, and meaningful software.</span><br>
+            <span class="about-fade-in" id="about-fade-2">💻 My journey started with Java and web technologies, and since then, I've built full-stack projects using JSP/Servlets, MySQL, Bootstrap, and modern frameworks like React and Django. From building event management systems to UI/UX design in Figma, I love taking on diverse challenges that blend logic with creativity.</span><br>
+            <span class="about-fade-in" id="about-fade-3">🎯 I'm currently focused on strengthening my backend, design, and system architecture skills, while working on real-world simulations like Library Management Systems, Train Ticket Booking Apps, and more — all integrated with responsive UIs and live databases.</span><br>
+            <span class="about-fade-in" id="about-fade-4">🌱 I believe in continuous learning — whether it's mastering GitHub, designing smarter interfaces, or contributing to open-source. I also enjoy helping others, documenting my projects, and sharing progress through GitHub and LinkedIn.</span><br>
+            <span class="about-fade-in" id="about-fade-5">🔗 I'm open to internships, freelance opportunities, collaborations, or just a good tech conversation. Let's connect and build something amazing together.</span>
+          </p>
+          <p class="about-fade-in" id="about-fade-6">"Code with clarity. Design with purpose. Build with passion."</p>
+        </div>
+      </div>
+      <div class="about-tabs">
+        <button class="about-tab active" data-category="all">All</button>
+        <button class="about-tab" data-category="volunteering">Volunteering</button>
+        <button class="about-tab" data-category="workshops">Workshops</button>
+        <button class="about-tab" data-category="competitions">Competitions</button>
+      </div>
+      <div class="about-carousels">
+        <div class="about-carousel" id="volunteering-carousel" style="display:none;">
+          <button class="carousel-btn" id="volunteering-prev" aria-label="Previous volunteering">&#8592;</button>
+          <div class="carousel-track-container">
+            <ul class="carousel-track" id="volunteering-track">
+              <li class="carousel-slide">
+                <div class="about-card">
+                  <h4>Vice Treasurer</h4>
+                  <p>Proud to be the Vice Treasurer at Association of Computer and Data Science at NSBM Green University </p>
+                  <a href="ACDS.html" class="about-details-btn">View Details</a>
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <div class="about-card">
+                  <h4>Finace Team Lead</h4>
+                  <p>Proud to be the Lead of finance team for IEEE-Subcommittee </p>
+                  <a href="IEEE.html" class="about-details-btn">View Details</a>
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <div class="about-card">
+                  <h4>Finace Team Lead</h4>
+                  <p>Proud to be the Lead of finance team for DataDive 2025 </p>
+                  <a href="DataDive.html" class="about-details-btn">View Details</a>
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <div class="about-card">
+                  <h4>Vice Chair</h4>
+                  <p>Helped organize a university tech one day workshop, managing logistics and student engagement.</p>
+                  <a href="Figmate.html" class="about-details-btn">View Details</a>
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <div class="about-card">
+                  <h4>Finance Team Member</h4>
+                  <p>Helped organize a interuniversity coding competition</p>
+                  <a href="Duothon.html" class="about-details-btn">View Details</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="carousel-btn" id="volunteering-next" aria-label="Next volunteering">&#8594;</button>
+        </div>
+        <div class="about-carousel" id="workshops-carousel" style="display:none;">
+          <button class="carousel-btn" id="workshops-prev" aria-label="Previous workshop">&#8592;</button>
+          <div class="carousel-track-container">
+            <ul class="carousel-track" id="workshops-track">
+              <li class="carousel-slide">
+                <div class="about-card">
+                  <h4>GithHub Workshop</h4>
+                  <p>Participated in a workshop focused on Git .</p>
+                  <a href="Github.html" class="about-details-btn">View Details</a>
+                </div>
+              </li>
+             
+               <li class="carousel-slide">
+                <div class="about-card">
+                  <h4>DataVerse</h4>
+                  <p>Attended a Machine Learning Workshop.</p>
+                  <a href="MachineLearning.html" class="about-details-btn">View Details</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="carousel-btn" id="workshops-next" aria-label="Next workshop">&#8594;</button>
+        </div>
+        <div class="about-carousel" id="competitions-carousel" style="display:none;">
+          <button class="carousel-btn" id="competitions-prev" aria-label="Previous competition">&#8592;</button>
+          <div class="carousel-track-container">
+            <ul class="carousel-track" id="competitions-track">
+              <li class="carousel-slide">
+                <div class="about-card">
+                  <h4>Algoxplore</h4>
+                  <p>CTF Competition - Algorithmic problem solving and cybersecurity skills.</p>
+                  <a href="Algoxplore.html" class="about-details-btn">View Details</a>
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <div class="about-card">
+                  <h4>HackOps001</h4>
+                  <p>CTF Challenge - Capture The Flag event focused on ethical hacking and security.</p>
+                  <a href="Hackops.html" class="about-details-btn">View Details</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="carousel-btn" id="competitions-next" aria-label="Next competition">&#8594;</button>
+        </div>
+      </div>
+      <a href="images/cv.pdf" class="download-cv-btn" download>Download CV</a>
+    </section>
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <p class="certificates-subtitle">Selected professional certifications and achievements</p>
+      <div class="carousel certificates-carousel">
+        <button class="carousel-btn" id="carousel-prev" aria-label="Previous certificate">&#8592;</button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track" id="carousel-track">
+            <li class="carousel-slide">
+              <div class="certificate-card">
+                <img src="images/c1.png" alt="Certificate 1" class="certificate-img" data-full="images/c1.png">
+                <div class="certificate-caption">Github Copilot</div>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <div class="certificate-card">
+                <img src="images/c2.png" alt="Certificate 2" class="certificate-img" data-full="images/c2.png">
+                <div class="certificate-caption">Azure AI Fundamentals</div>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <div class="certificate-card">
+                <img src="images/c3.png" alt="Certificate 3" class="certificate-img" data-full="images/c3.png">
+                <div class="certificate-caption">Fundamentals of Azure AI Speech</div>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <div class="certificate-card">
+                <img src="images/Sql1.png" alt="Certificate 3" class="certificate-img" data-full="images/c3.png">
+                <div class="certificate-caption">SQL Advanced</div>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <div class="certificate-card">
+                <img src="images/Sql2.png" alt="Certificate 3" class="certificate-img" data-full="images/c3.png">
+                <div class="certificate-caption">SQL Intermediate</div>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <div class="certificate-card">
+                <img src="images/Sql3.png" alt="Certificate 3" class="certificate-img" data-full="images/c3.png">
+                <div class="certificate-caption">SQL Beginner</div>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <div class="certificate-card">
+                <img src="images/c8.jpg" alt="Certificate 3" class="certificate-img" data-full="images/c3.png">
+                <div class="certificate-caption">SQL Beginner</div>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <div class="certificate-card">
+                <img src="images/c9.jpg" alt="Certificate 3" class="certificate-img" data-full="images/c3.png">
+                <div class="certificate-caption">SQL Beginner</div>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <div class="certificate-card">
+                <img src="images/c10.jpg" alt="Certificate 3" class="certificate-img" data-full="images/c3.png">
+                <div class="certificate-caption">SQL Beginner</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="carousel-btn" id="carousel-next" aria-label="Next certificate">&#8594;</button>
+      </div>
+    </section>
+    <section id="skills">
+      <h2><span id="skills-typing"></span><span id="skills-cursor">|</span></h2>
+      <div class="skills-tabs">
+        <button class="skills-tab active" data-category="all">All</button>
+        <button class="skills-tab" data-category="languages">Languages</button>
+        <button class="skills-tab" data-category="frameworks">Frameworks</button>
+        <button class="skills-tab" data-category="tools">Tools</button>
+        <button class="skills-tab" data-category="design">Design</button>
+      </div>
+      <ul>
+        <!-- Languages -->
+        <li data-category="languages"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></li>
+        <li data-category="languages"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></li>
+        <li data-category="languages"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin"><span>Kotlin</span></li>
+        <li data-category="languages"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><span>Python</span></li>
+        <li data-category="languages"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"><span>C</span></li>
+        <li data-category="languages"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"><span>C++</span></li>
+        <li data-category="languages"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"><span>HTML5</span></li>
+        <li data-category="languages"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"><span>CSS3</span></li>
+        <!-- Frameworks -->
+        <li data-category="frameworks"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"><span>React</span></li>
+        <li data-category="frameworks"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" alt="Next.js" style="background:#fff;border-radius:50%"><span>Next.js</span></li>
+        <li data-category="frameworks"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django"><span>Django</span></li>
+        <li data-category="frameworks"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap"><span>Bootstrap</span></li>
+        <li data-category="frameworks"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"><span>Node.js</span></li>
+        <li data-category="frameworks"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" style="background:#fff;border-radius:50%"><span>Express</span></li>
+        <li data-category="frameworks"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" alt=".NET"><span>.NET</span></li>
+        <!-- Tools -->
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><span>Git</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"><span>Docker</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" style="background:#fff;border-radius:50%"><span>AWS</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"><span>Linux</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure"><span>Azure</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android"><span>Android</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" alt="Electron"><span>Electron</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter"><span>Jupyter</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/canva.svg" alt="Canva" style="background:#fff;border-radius:50%"><span>Canva</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chartjs/chartjs-original.svg" alt="Chart.js"><span>Chart.js</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original.svg" alt="Cypress"><span>Cypress</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman"><span>Postman</span></li>
+        <!-- Database -->
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><span>MySQL</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"><span>MongoDB</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"><span>PostgreSQL</span></li>
+        <!-- Design -->
+        <li data-category="design"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"><span>Figma</span></li>
+        <li data-category="design"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop"><span>Photoshop</span></li>
+        <!-- Other/GraphQL/Lean/Matlab -->
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt="GraphQL"><span>GraphQL</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab"><span>GitLab</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lean/lean-original.svg" alt="Lean"><span>Lean</span></li>
+        <li data-category="tools"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="Matlab"><span>Matlab</span></li>
+      </ul>
+      <div class="soft-skills-section">
+        <h3>Soft Skills</h3>
+        <div class="soft-skills-grid">
+          <div class="soft-skill-row">
+            <span class="soft-skill-name">Problem-Solving</span>
+            <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+            <span class="progress-percentage">85%</span>
+          </div>
+          <div class="soft-skill-row">
+            <span class="soft-skill-name">Time Management</span>
+            <div class="progress-bar"><div class="progress-fill" style="width: 80%"></div></div>
+            <span class="progress-percentage">80%</span>
+          </div>
+          <div class="soft-skill-row">
+            <span class="soft-skill-name">Communication</span>
+            <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+            <span class="progress-percentage">90%</span>
+          </div>
+          <div class="soft-skill-row">
+            <span class="soft-skill-name">Team Collaboration</span>
+            <div class="progress-bar"><div class="progress-fill" style="width: 88%"></div></div>
+            <span class="progress-percentage">88%</span>
+          </div>
+          <div class="soft-skill-row">
+            <span class="soft-skill-name">Public Speaking</span>
+            <div class="progress-bar"><div class="progress-fill" style="width: 75%"></div></div>
+            <span class="progress-percentage">75%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2><span id="projects-typing"></span><span id="projects-cursor">|</span></h2>
+      <div class="projects-tabs">
+        <button class="projects-tab active" data-category="all">All</button>
+        <button class="projects-tab" data-category="web">Web App</button>
+        <button class="projects-tab" data-category="mobile">Mobile App</button>
+        <button class="projects-tab" data-category="uiux">UI/UX Design</button>
+        <button class="projects-tab" data-category="Java">Java </button>
+        <button class="projects-tab" data-category="mini projects">Mini Projects</button>
+      </div>
+      <div class="carousel" id="projects-carousel">
+        <button class="carousel-btn" id="projects-prev" aria-label="Previous project">&#8592;</button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track" id="projects-track">
+            <li class="project-card" data-category="web" onclick="window.location.href='project1.html'">
+              <img src="images/p1.png" alt="Tourist Destination E-Platform">
+              <h3>Tourist Destination E-Platform</h3>
+              <p>developed a responsive and visually engaging tourist destination website using HTML, CSS, and JavaScript</p>
+              <a href="project1.html" class="view-project-link">View Project</a>
+            </li>
+            <li class="project-card" data-category="web">
+              <img src="images/p2.png" alt="Portfolio Website">
+              <h3>Portfolio Website</h3>
+              <p>A simple, responsive portfolio built using HTML, CSS, and JavaScript to showcase my projects, skills, and contact details. Hosted live on GitHub Pages for easy access and sharing.</p>
+              <a href="project2.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="web">
+              <img src="images/portfolio.png" alt="New modern portfolio">
+              <h3>New modern portfolio</h3>
+              <p>A modern, responsive portfolio website to showcase my work and skills .</p>
+              <a href="project3.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="mobile">
+              <img src="https://via.placeholder.com/260x140?text=Mobile+App" alt="No project">
+              <h3>No Project</h3>
+              <p>No Project</p>
+              <a href="project4.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="uiux">
+              <img src="images/ScoobRun.png" alt="UI/UX Dashboard Redesign">
+              <h3>Scooby Doo theme Mobile UI/UX</h3>
+              <p>A complete UI/UX design for Scooby Doo theme Gaming mobile app.</p>
+              <a href="project5.html" target="_blank">View Project</a>
+            </li>
+            
+            <li class="project-card" data-category="Java">
+              <img src="images/p5c.png" alt="University Student Details System">
+              <h3>University Student Details System</h3>
+              <p>A full-stack web application developed using JSP and Servlets to manage university student details.</p>
+              <a href="project6.html" target="_blank">View Project</a>
+            
+            <li class="project-card" data-category="Java">
+              <img src="images/Screenshot 2025-05-19 094928.png" alt="Student Data Management System">
+              <h3>Student  Management System</h3>
+              <p> A web application built with Java, JSP, and Servlets to manage student records and courses. Enables easy addition of students, course browsing, and enrollment management with a clean user interface.</p>
+              <a href="project7.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="Java">
+              <img src="images/p8a.png" alt="Event Registration System">
+              <h3>Event Registration System</h3>
+              <p>Admin login, reservation management, employee assignment for events, event status updates. Goal: Build a complete admin-based event management system with green-white UI.</p>
+              <a href="project8.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="Java">
+              <img src="images/p9a.png" alt="Library Management System">
+              <h3>Library Management System</h3>
+              <p>User book reservation and return, admin updates book status, styled dashboard, navigation, and error pages. Goal: Build a full CRUD-based system and deploy it on GitHub & LinkedIn.</p>
+              <a href="project9.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="Java">
+              <img src="images/p10a.png" alt="Train Ticket Booking System">
+              <h3>Train Ticket Booking System</h3>
+              <p>Train schedule selection, seat reservation and booking history. Goal: Build a simulation of real-world ticket booking with form inputs and database connection.</p>
+              <a href="project10.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="mini projects">
+              <img src="images/cal.jpg" alt="Random Quote Generator">
+              <h3>Calculator</h3>
+              <p> A desktop calculator application developed in Python.</p>
+              <a href="project11.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="mini projects">
+              <img src="images/USD.jpg" alt="To-Do List">
+              <h3>USD to LKR converter</h3>
+              <p> A Python-based currency converter application that converts USD amounts to Sri Lankan Rupees.</p>
+              <a href="project12.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="mini projects">
+              <img src="images/CEL.jpg" alt="To-Do List">
+              <h3> Celsius to Fahrenheit converter</h3>
+              <p>A simple Python-based utility to convert temperatures from Celsius to Fahrenheit.</p>
+              <a href="project13.html" target="_blank">View Project</a>
+            </li>
+             <li class="project-card" data-category="mini projects">
+              <img src="images/calender.png" alt="To-Do List">
+              <h3>Calender </h3>
+              <p>This simple **Calendar Application** was developed using the C programming language.</p>
+              <a href="project14.html" target="_blank">View Project</a>
+            </li>
+            <li class="project-card" data-category="mini projects">
+              <img src="images/cl.jpg" alt="To-Do List">
+              <h3>Digital Clock</h3>
+              <p>A simple and elegant digital clock desktop app developed using Python and Tkinter</p>
+              <a href="project15.html" target="_blank">View Project</a>
+            </li>
+          </ul>
+        </div>
+        <button class="carousel-btn" id="projects-next" aria-label="Next project">&#8594;</button>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-cards">
+        <div class="contact-info-card">
+          <h2>Get in Touch</h2>
+          <p>Feel free to reach out via email, phone, or the contact form.</p>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="contact-icon"> <!-- Email SVG -->
+                <svg width="24" height="24" fill="none" stroke="#ff416c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="4"/><polyline points="2,6 12,13 22,6"/></svg>
+              </span>
+              <div>
+                <strong>Email</strong><br>
+                <span>osaganiperera123@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <span class="contact-icon"> <!-- Phone SVG -->
+                <svg width="24" height="24" fill="none" stroke="#ff416c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92V21a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3 5.18 2 2 0 0 1 5 3h4.09a2 2 0 0 1 2 1.72c.13 1.13.37 2.23.72 3.28a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c1.05.35 2.15.59 3.28.72A2 2 0 0 1 21 18.91V21z"/></svg>
+              </span>
+              <div>
+                <strong>Phone</strong><br>
+                <span>+94 71 471 1854</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <span class="contact-icon"> <!-- Location SVG -->
+                <svg width="24" height="24" fill="none" stroke="#ff416c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div>
+                <strong>Location</strong><br>
+                <span>Kandana, Sri Lanka</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/Osagani31" aria-label="GitHub"><svg width="22" height="22" fill="#fff" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg width="22" height="22" fill="#fff" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg width="22" height="22" fill="#fff" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.326 24H12.82v-9.294H9.692v-3.622h3.127V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.324-.592 1.324-1.326V1.326C24 .592 23.405 0 22.675 0"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg width="22" height="22" fill="#fff" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.241 1.308 3.608.058 1.266.069 1.646.069 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.241 1.246-3.608 1.308-1.266.058-1.646.069-4.85.069s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.241-1.308-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.974-.974 2.241-1.246 3.608-1.308C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.775.13 4.602.388 3.545 1.445 2.488 2.502 2.23 3.675 2.172 4.952.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.058 1.277.316 2.45 1.373 3.507 1.057 1.057 2.23 1.315 3.507 1.373C8.332 23.986 8.741 24 12 24s3.668-.014 4.948-.072c1.277-.058 2.45-.316 3.507-1.373 1.057-1.057 1.315-2.23 1.373-3.507.058-1.28.072-1.689.072-4.948s-.014-3.668-.072-4.948c-.058-1.277-.316-2.45-1.373-3.507C19.398.388 18.225.13 16.948.072 15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg></a>
+          </div>
+        </div>
+        <div class="contact-form-card">
+          <h2>Send a Message</h2>
+          <form id="contact-form" action="submit_contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required maxlength="100">
+            <input type="email" name="email" placeholder="Your Email" required maxlength="150">
+            <textarea name="message" placeholder="Your Message" required maxlength="1000"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+          <div id="form-message" style="margin-top: 15px; padding: 10px; border-radius: 5px; display: none;"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="certificate-modal" class="certificate-modal" style="display:none;">
+    <span class="certificate-modal-close" id="certificate-modal-close">&times;</span>
+    <img class="certificate-modal-content" id="certificate-modal-img" src="" alt="Full Certificate">
+  </div>
+  <footer>
+    <p>&copy; 2025 Osagani Perera. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    document.querySelectorAll('.project-card').forEach(card => {
+      const link = card.querySelector('a.view-project-link');
+      if (link) {
+        card.style.cursor = 'pointer';
+        card.addEventListener('click', (e) => {
+          // Prevent double navigation if the button is clicked
+          if (e.target.tagName.toLowerCase() !== 'a') {
+            window.location.href = link.getAttribute('href');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html> 
