@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Ceylon Coir E-commerce Platform",
+    "description": "A comprehensive MERN stack-based e-commerce solution tailored for the coir industry.",
+    "link": "https://your-portfolio-link.com/web1",
+    "category": "web",
+    "image": "https://via.placeholder.com/260x140?text=Web+App"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A modern, responsive portfolio website to showcase my work and skills.",
+    "link": "https://your-portfolio-link.com/web2",
+    "category": "web",
+    "image": "https://via.placeholder.com/260x140?text=Web+App"
+  },
+  {
+    "title": "Fitness Tracker App",
+    "description": "A cross-platform mobile app for tracking workouts, nutrition, and progress.",
+    "link": "https://your-portfolio-link.com/mobile1",
+    "category": "mobile",
+    "image": "https://via.placeholder.com/260x140?text=Mobile+App"
+  },
+  {
+    "title": "Recipe Finder Mobile",
+    "description": "A mobile app to discover and save recipes, with grocery list integration.",
+    "link": "https://your-portfolio-link.com/mobile2",
+    "category": "mobile",
+    "image": "https://via.placeholder.com/260x140?text=Mobile+App"
+  },
+  {
+    "title": "UI/UX Dashboard Redesign",
+    "description": "A complete UI/UX redesign for a SaaS analytics dashboard, focusing on usability and aesthetics.",
+    "link": "https://your-portfolio-link.com/uiux1",
+    "category": "uiux",
+    "image": "https://via.placeholder.com/260x140?text=UIUX"
+  },
+  {
+    "title": "E-commerce Checkout Flow",
+    "description": "UI/UX case study for optimizing the checkout experience in an online store.",
+    "link": "https://your-portfolio-link.com/uiux2",
+    "category": "uiux",
+    "image": "https://via.placeholder.com/260x140?text=UIUX"
+  },
+  {
+    "title": "Brand Identity Design",
+    "description": "Developed a cohesive brand identity for a startup, including logo, color palette, and typography.",
+    "link": "https://your-portfolio-link.com/design1",
+    "category": "design",
+    "image": "https://via.placeholder.com/260x140?text=Design"
+  },
+  {
+    "title": "Marketing Poster Series",
+    "description": "A series of digital posters for a marketing campaign, using modern design principles.",
+    "link": "https://your-portfolio-link.com/design2",
+    "category": "design",
+    "image": "https://via.placeholder.com/260x140?text=Design"
+  },
+  {
+    "title": "Student Data Management System",
+    "description": "Stores student names, degrees, and image uploads. Focused on learning file/photo upload with Java and JSP. Goal: Learn how to upload and store student profile photos with DB integration.",
+    "link": "#",
+    "category": "web",
+    "image": "https://via.placeholder.com/260x140?text=Student+Data+Mgmt"
+  },
+  {
+    "title": "Event Registration System",
+    "description": "Admin login, reservation management, employee assignment for events, event status updates. Goal: Build a complete admin-based event management system with green-white UI.",
+    "link": "#",
+    "category": "web",
+    "image": "https://via.placeholder.com/260x140?text=Event+Reg+System"
+  },
+  {
+    "title": "Library Management System",
+    "description": "User book reservation and return, admin updates book status, styled dashboard, navigation, and error pages. Goal: Build a full CRUD-based system and deploy it on GitHub & LinkedIn.",
+    "link": "#",
+    "category": "web",
+    "image": "https://via.placeholder.com/260x140?text=Library+Mgmt"
+  },
+  {
+    "title": "Train Ticket Booking System",
+    "description": "Train schedule selection, seat reservation and booking history. Goal: Build a simulation of real-world ticket booking with form inputs and database connection.",
+    "link": "#",
+    "category": "web",
+    "image": "https://via.placeholder.com/260x140?text=Train+Booking"
+  },
+  {
+    "title": "Scooby-Doo Themed Game App (Figma UI Design)",
+    "description": "Create a fun, themed app UI for a game concept while learning Figma basics.",
+    "link": "#",
+    "category": "design",
+    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+  }
+] 
