@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder Mobile | Osagani Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .project-detail-container {
+      max-width: 700px;
+      margin: 3rem auto;
+      background: #232946;
+      border-radius: 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+      padding: 2.5rem 2rem 2rem 2rem;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .project-detail-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #7F27FF;
+      margin-bottom: 0.5rem;
+    }
+    .project-detail-img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 1rem;
+      margin: 0 auto 1.5rem auto;
+      display: block;
+      box-shadow: 0 2px 8px rgba(127,39,255,0.10);
+      background: #18122B;
+    }
+    .project-detail-features {
+      margin: 1.2rem 0;
+      padding-left: 1.2rem;
+    }
+    .project-detail-tech {
+      margin: 1.2rem 0;
+      color: #b3aaff;
+      font-size: 1.1rem;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 1.2rem;
+      background: linear-gradient(90deg, #7F27FF 0%, #5e1ecb 100%);
+      color: #fff;
+      padding: 0.8rem 2.2rem;
+      border: none;
+      border-radius: 2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(127,39,255,0.10);
+      transition: background 0.2s, transform 0.2s;
+    }
+    .back-btn:hover {
+      background: linear-gradient(90deg, #5e1ecb 0%, #7F27FF 100%);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body style="background: #18122B;">
+  <div class="project-detail-container">
+    <a href="index.html" class="back-btn">← Back to Portfolio</a>
+    <h1 class="project-detail-title">Recipe Finder Mobile</h1>
+    <img src="https://via.placeholder.com/500x240?text=Recipe+Finder+Mobile" alt="Recipe Finder Mobile" class="project-detail-img">
+    <p>
+      A mobile app to discover and save recipes, with grocery list integration. Makes meal planning and cooking easier for everyone.
+    </p>
+    <div class="project-detail-features">
+      <strong>Features:</strong>
+      <ul>
+        <li>Recipe search and filtering</li>
+        <li>Save favorite recipes</li>
+        <li>Grocery list integration</li>
+        <li>Step-by-step cooking instructions</li>
+        <li>Mobile-optimized interface</li>
+      </ul>
+    </div>
+    <div class="project-detail-tech">
+      <strong>Tech Stack:</strong> React Native, Expo, Spoonacular API, Firebase
+    </div>
+  </div>
+</body>
+</html> 
